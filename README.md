@@ -26,7 +26,28 @@ mongodb
 
 前端用了代理的方式实现跨域
 
-![1576071457562](C:\Users\CYJ\AppData\Roaming\Typora\typora-user-images\1576071457562.png)
+```
+    devServer: {
+        open: true,
+        host: 'localhost',
+        port: 8081,
+        https: false,
+        hotOnly: false,
+        proxy: { // 配置跨域
+            '/api': {
+                target: 'http://localhost:3000/api/',
+                ws: true,
+                changOrigin: true,
+                pathRewrite: {
+                    '^/api': ''
+                }
+            }
+        },
+        before: app => { }
+    }
+```
+
+
 
 ### 路由拦截
 
