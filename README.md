@@ -190,4 +190,4 @@ npm install passport-jwt passport
  passport.authenticate('jwt', { session: false }),
 
 ```
-https://github.com/cyj9546/vue_express/blob/master/screenshot/Snipaste_2019-12-11_20-34-44.png
+
