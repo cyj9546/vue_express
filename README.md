@@ -193,6 +193,6 @@ npm install passport-jwt passport
 ![预览](https://github.com/cyj9546/vue_express/blob/master/screenshot/Snipaste_2019-12-11_19-19-31.png)
 
 
-![预览](https://github.com/cyj9546/vue_express/blob/master/screenshot/Snipaste_2019-12-11_20-34-44.png)
+![预览](https://github.com/cyj9546/vue_express/blob/master/screenshot/Snipaste_2019-12-11_20-34-13.png)
 
 
